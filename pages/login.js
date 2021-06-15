@@ -15,7 +15,7 @@ function login() {
             </Head>
             <LoginContainer>
                 <Logo
-                src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c543.png'
+                src='/images/whats-logo.png'
                 />
                 <Button onClick={signIn} variant='outlined'>Signin With Google</Button>
             </LoginContainer>

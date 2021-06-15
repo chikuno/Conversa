@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Hello there, Welcome to the FirebaseChat app. You may check the [Live-App].⚡ here
 
-## Getting Started
+### Stack used: NextJs, FireBase, FireStore
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Services & third-parties: Google Auth, Material UI, Styled-Components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Front-End: This project uses React functional based components 
+    Back-End: Firebase
+    Authentication(firebase-auth)
+    Authorization
+    Google Login O-Auth
+    Material-ui
+    Styled-Components
+    
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Features and Description :
+A beautiful and Super fast - One to One Chat With  NextJs App - whatsapp clone built on the NextJs Platform. 
+User's Last seen
+User can login via their google accounts and click on start a chat button to add a user to their friends list, just make sure the user has a gmail account else they won't be able to login to that account.
+NextJs has basically ReactJs under it's hood but has some extra features like 
+server-side rendering and routing out of the box which makes the app even more faster and better for SEO purposes. 
+Although currently limited to send only text messages, but can surely by taken futher by adding more functionalities.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Run the project Locally:
+After cloning repository 
+Install the dependencies
+1. npm install
+2. change firebaseConfig in firebase.js at root level with your credentials of firebase app
+3. now run the project with yarn dev command
+4. All set. Your project must be up and running at http://localhost:3000
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Project Flow
+Signup/Login 
+Click on start a chat button to add a user to the friends list, just make sure the user has a gmail account else they won't be able to login to that account.
+Click on your avatar at top-left to logout. 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Live-App]: https://chatapp-firebase.vercel.app/

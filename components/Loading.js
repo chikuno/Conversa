@@ -4,7 +4,7 @@ function Loading() {
     return (
        <center style={{display: 'grid', placeItems: 'center', height:'100vh'}}>
            <div>
-               <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c543.png" alt="" 
+               <img src="/images/whats-logo.png" alt="" 
                alt="" style={{ marginBottom: 10}} height={200}
                />
                <Circle color="#3cbc28" size={60} />
