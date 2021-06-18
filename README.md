@@ -1,5 +1,7 @@
 ## Hello there, Welcome to the FirebaseChat app. You may check the [Live-App].⚡ here
 
+![alt text](https://mongo-mern.s3.ap-south-1.amazonaws.com/3.jpg)
+
 ### Stack used: NextJs, FireBase, FireStore
 
 
